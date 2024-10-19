@@ -16,9 +16,9 @@ import { styled } from "@mui/system";
 import Logo from "../asset/Logo.png";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
-// Custom styles using Material-UI's styled utility
+
 const AppBarStyled = styled(AppBar)({
-  backgroundColor: "#043873", // Dark blue background
+  backgroundColor: "#043873", 
 });
 
 const LogoTypography = styled(Typography)({
@@ -28,7 +28,7 @@ const LogoTypography = styled(Typography)({
 });
 
 const LoginButton = styled(Button)({
-  backgroundColor: "#FDE8A9", // Yellow button
+  backgroundColor: "#FDE8A9", 
   color: "#0A3161",
   textTransform: "none",
   "&:hover": {
@@ -37,7 +37,7 @@ const LoginButton = styled(Button)({
 });
 
 const FreeButton = styled(Button)({
-  backgroundColor: "#A6D5FA", // Light blue button
+  backgroundColor: "#A6D5FA", 
   color: "#0A3161",
   textTransform: "none",
   "&:hover": {
@@ -82,6 +82,7 @@ const Header = () => {
   return (
     <AppBarStyled position="static">
       <ToolbarStyled>
+        
         {/* Logo */}
         <LogoTypography variant="h6">
           <img

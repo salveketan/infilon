@@ -8,6 +8,7 @@ import {
     Container,
     Grid2,
 } from "@mui/material";
+import logo from '../asset/Logo.png'
 
 const Footer = () => {
     return (
@@ -18,7 +19,7 @@ const Footer = () => {
                     <Grid2 item xs={12} md={3}>
                         <Typography variant="h6" fontWeight="bold" gutterBottom>
                             <img
-                                src="/path-to-your-logo" 
+                                src={logo}
                                 alt="Whitespace"
                                 style={{ width: "100px" }}
                             />
@@ -37,13 +38,13 @@ const Footer = () => {
                         <Typography variant="h6" fontWeight="bold" gutterBottom>
                             Product
                         </Typography>
-                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none"  }}>
+                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none" }}>
                             Overview
                         </Link>
-                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none"  }}>
+                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none" }}>
                             Pricing
                         </Link>
-                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none"  }}>
+                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none" }}>
                             Customer stories
                         </Link>
                     </Grid2>
@@ -53,13 +54,13 @@ const Footer = () => {
                         <Typography variant="h6" fontWeight="bold" gutterBottom>
                             Resources
                         </Typography>
-                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none"  }}>
+                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none" }}>
                             Blog
                         </Link>
-                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none"  }}>
+                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none" }}>
                             Guides & tutorials
                         </Link>
-                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none"  }}>
+                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none" }}>
                             Help center
                         </Link>
                     </Grid2>
@@ -69,18 +70,18 @@ const Footer = () => {
                         <Typography variant="h6" fontWeight="bold" gutterBottom>
                             Company
                         </Typography>
-                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none"  }}>
+                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none" }}>
                             About us
                         </Link>
-                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none"  }}>
+                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none" }}>
                             Careers
                         </Link>
-                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none"  }}>
+                        <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none" }}>
                             Media kit
                         </Link>
                     </Grid2>
 
-                    {/* CTA Section */}
+                    {/* Try Section */}
                     <Grid2 item xs={12} md={3}>
                         <Typography variant="h6" fontWeight="bold" gutterBottom>
                             Try It Today
