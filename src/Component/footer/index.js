@@ -13,9 +13,9 @@ const Footer = () => {
     return (
         <Box sx={{ backgroundColor: "#0A3161", color: "#fff", py: 5 }}>
             <Container maxWidth="lg">
-                <Grid container spacing={4}>
+                <Grid2 container spacing={4}>
                     {/* Logo and description */}
-                    <Grid item xs={12} md={3}>
+                    <Grid2 item xs={12} md={3}>
                         <Typography variant="h6" fontWeight="bold" gutterBottom>
                             <img
                                 src="/path-to-your-logo" 
@@ -30,10 +30,10 @@ const Footer = () => {
                             whitespace was created for the new ways we live and work. We make
                             a better workspace around the world.
                         </Typography>
-                    </Grid>
+                    </Grid2>
 
                     {/* Product Section */}
-                    <Grid item xs={12} md={2}>
+                    <Grid2 item xs={12} md={2}>
                         <Typography variant="h6" fontWeight="bold" gutterBottom>
                             Product
                         </Typography>
@@ -46,10 +46,10 @@ const Footer = () => {
                         <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none"  }}>
                             Customer stories
                         </Link>
-                    </Grid>
+                    </Grid2>
 
                     {/* Resources Section */}
-                    <Grid item xs={12} md={2}>
+                    <Grid2 item xs={12} md={2}>
                         <Typography variant="h6" fontWeight="bold" gutterBottom>
                             Resources
                         </Typography>
@@ -62,10 +62,10 @@ const Footer = () => {
                         <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none"  }}>
                             Help center
                         </Link>
-                    </Grid>
+                    </Grid2>
 
                     {/* Company Section */}
-                    <Grid item xs={12} md={2}>
+                    <Grid2 item xs={12} md={2}>
                         <Typography variant="h6" fontWeight="bold" gutterBottom>
                             Company
                         </Typography>
@@ -78,10 +78,10 @@ const Footer = () => {
                         <Link href="#" color="inherit" sx={{ display: "block", mb: 1, textDecoration: "none"  }}>
                             Media kit
                         </Link>
-                    </Grid>
+                    </Grid2>
 
                     {/* CTA Section */}
-                    <Grid item xs={12} md={3}>
+                    <Grid2 item xs={12} md={3}>
                         <Typography variant="h6" fontWeight="bold" gutterBottom>
                             Try It Today
                         </Typography>
@@ -99,8 +99,8 @@ const Footer = () => {
                         >
                             Start Today →
                         </Button>
-                    </Grid>
-                </Grid>
+                    </Grid2>
+                </Grid2>
 
                 {/* Footer Bottom */}
                 <Box
